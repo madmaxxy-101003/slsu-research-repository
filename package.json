@@ -8,6 +8,7 @@
     "dev": "concurrently -n backend,frontend -c blue,green \"nodemon backend/app.js\" \"cd slsu-research-repository/frontend && npx vite\"",
     "dev:backend": "nodemon backend/app.js",
     "dev:frontend": "cd slsu-research-repository/frontend && npx vite",
+    "build": "cd slsu-research-repository/frontend && npm run build",
     "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {
